@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191A19;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "main main main"
+  ;
+  justify-content: center;
+
+  /* background-image: url(../public/bg.svg); */
+  /* background-repeat: no-repeat, repeat; */
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
